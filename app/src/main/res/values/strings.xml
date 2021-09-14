@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JUMP START NINJA</string>
+
+    <string name="label_camera_take_photo">Take Photo</string>
+
+    <string name="txt_label_select">Select</string>
+    <string name="txt_label_send">Send</string>
+</resources>

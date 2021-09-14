@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--TextView Style-->
+    <style name="MyApp.TextView.Base.Normal" parent="android:style/Widget.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">200</item>
+    </style>
+
+    <style name="MyApp.TextView.Bold" parent="MyApp.TextView.Base.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyApp.TextViews.Normal" parent="MyApp.TextView.Base.Normal">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MyApp.TexView.Label.Primary" parent="MyApp.TextView.Bold">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="MyApp.TexView.Label.Primary.Normal" parent="MyApp.TextViews.Normal">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="MyApp.TextView.Header" parent="MyApp.TextView.Base.Normal">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">true</item>
+        <item name="background">@color/primary_dark</item>
+    </style>
+
+</resources>
